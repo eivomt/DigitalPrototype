@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./stylesheet.css">
+</head>
+<body>
+
+
+    <section class="settings">
+
+        <h1 id="settings-title">Your workout :</h1>
+        
+        <div class="input">
+            <h2 class="title">series</h2>
+            <div class="switch">
+                <div class="plus button" id="plus-series">+</div>
+                <h1 id="series">
+                    3
+                </h1>
+                <div class="minus button" id="minus-series">-</div>
+            </div>
+        </div>
+
+        <div class="input">
+            <h2 class="title">reps / series</h2>
+            <div class="switch">
+                <div class="plus button" id="plus-reps">+</div>
+                <h1 id="reps">
+                    10
+                </h1>
+                <div class="minus button" id="minus-reps">-</div>
+            </div>
+        </div>
+
+        <div class="input">
+            <h2 class="title">break time</h2>
+            <div class="switch">
+                <div class="plus button" id="plus-break">+</div>
+                <h1 id="break">
+                    5<br>min
+                </h1>
+                <div class="minus button" id="minus-break">-</div>
+            </div>
+        </div>
+
+        <div class="start">start</div>
+
+    </section>
+
+    <section class="session inactive">
+        <div class="reps">
+            <h2>rep no.</h2>
+            <div class="counter">
+                1<span>/ 12</span>
+            </div>
+        </div>
+
+        <div class="series">
+            <h2>series no.</h2>
+            <div class="counter" id="series-counter">
+                1<span>/ 3</span>
+            </div>
+        </div>
+        <div>
+            <p  class="motivation">You can do this</p>
+        </div>
+    </section>
+
+
+    <script src="count.js"></script>
+    
+</body>
+</html>

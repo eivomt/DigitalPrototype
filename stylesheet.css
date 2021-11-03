@@ -1,0 +1,149 @@
+* {
+    font-family: roboto, sans-serif;
+}
+
+body {
+    background-color: #484269;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.time {
+    color: #EEE;
+    font-size: 200px;
+}
+
+.counter {
+    color: #EEE;
+    font-size: 160px;
+    width: 100%;
+    text-align: center;
+}
+
+h2 {
+    color: #DFD;
+    font-size: 20px;
+}
+
+h1 {
+    color: #EEE;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 0;
+    /* margin-right: 40px; */
+}
+
+.settings {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 7.5vh;
+    padding-bottom: 7.5vh;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.switch {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80vw;
+}
+
+.button {
+    width: 40px;
+    height: 40px;
+    /* background-color: #DFD; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.plus {
+    color: #CFC;
+}
+
+.minus {
+    color: #FCC;
+}
+
+
+.start {
+    height: 40px;
+    width: 200px;
+    background-color: #DFD;
+    border-radius: 4px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    letter-spacing: 5px;
+    padding-left: 4px;
+}
+
+.session {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.inactive {
+    display: none;
+}
+
+p {
+    color: white;
+    font-size: 40px;
+}
+
+.reps {
+    width: 80vw;
+}
+
+.series {
+    width: 80vw;
+}
+
+.series-counter {
+    width: 100%;
+    text-align: center;
+}
+
+span {
+    font-size: 40px;
+}
+
+.motivation {
+    color:  white;
+    font-size: 20px;
+    text-align: center;
+}
+
+#settings-title {
+    /* color: #CFC; */
+    font-size: 20px;
+}
+
+.invisible {
+    opacity: 0;
+}
